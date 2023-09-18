@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Assignment</title>
+</head>
+<body>
+    <h2><u>Python</u></h2>
+    <p>
+        Python is a general-purpose, interpreted, high-level programming language popularly used for website development, data analytics and automation<br>
+        <h4>output in Python</h4>
+        To  get output printed in js environment we use command "print()"<br>
+        <h4>comments in Python</h4>
+        comments are represented with using """ """ for multi-line code and #for single-line codes
+        <h4>Variables</h4>
+        Variables are containers for storing data values.Python has no command for declaring a variable.
+        Variables do not need to be declared with any particular type, and can even change type after they have been set.<br>
+        <h4>Data types</h4>
+        Python has data types built-in by default,they are namely:<br>
+        Text Type:	str<br>
+        Numeric Types:	int, float, complex<br>
+        Sequence Types:	list, tuple, range<br>
+        Mapping Type:	dict<br>
+        Set Types:	set, frozenset<br>
+        Boolean Type:	bool<br>
+        Binary Types:	bytes, bytearray, memoryview<br>
+        None Type:	NoneType<br>
+        <h4>If ... Else</h4>
+        Python relies on indentation (whitespace at the beginning of a line) to define scope in the code.<br>
+        Python supports the usual logical conditions from mathematics and An "if statement" is written by using the if keyword.<br>
+        <b>Example for if statement:</b>
+        a = 33<br>
+        b = 200<br>
+        if b > a:<br>
+        print("b is greater than a")<br>
+        In this example we use two variables, a and b, which are used as part of the if statement to test whether b is greater than a.
+         As a is 33, and b is 200, we know that 200 is greater than 33, and so we print to screen that "b is greater than a".<br><br>
+        The 'elif' keyword is Python's way of saying "if the previous conditions were not true, then try this condition".<br>
+        <b>Example for elif statement:</b>
+        a = 33<br>
+        b = 33<br>
+        if b > a:<br>
+        print("b is greater than a")<br>
+        elif a == b:<br>
+        print("a and b are equal")<br>
+        here a is equal to b, so the first condition is not true, but the elif condition is true, so we print to screen that "a and b are equal".<br><br>
+        The 'else'  keyword catches anything which isn't caught by the preceding conditions.<br>
+        <b>Example for else statement:</b>
+        a = 200<br>
+        b = 33<br>
+        if b > a:<br>
+        print("b is greater than a")<br>
+        elif a == b:<br>
+        print("a and b are equal")<br>
+        else:<br>
+        print("a is greater than b")<br>
+        <h4>For loop</h4>
+        Python frequently uses the Loop to iterate over iterable objects like lists, tuples, and strings. A for loop is used for iterating over a sequence<br> 
+        Syntax of for Loop:<br>
+        for value in sequence: <br> 
+        {loop body}   <br>
+        <b>Example of for statement:</b>
+        numbers = [3, 5, 23, 6, 5, 1, 2, 9, 8]  <br>
+        sum_ = 0  <br>
+        for num in numbers:  <br>
+        sum_ = sum_ + num ** 2   <br>
+        print("The sum of squares is: ", sum_)  <br>
+        <h4>Strings</h4>
+        Strings in python are surrounded by either single quotation marks, or double quotation marks.
+        'hello world' is the same as "hello world"<br>
+        we can also assign a multiline string to a variable by using three quotes<br>
+        we have string methods also in python(in every language we have string methods)<br>
+        for example some namely methods are:<br>
+        Slicing, Slice From the Start, Slice to End, Negative Indexing, <br>
+        Upper Case, Lower Case, Remove Whitespace,Replace String, Split String<br>
+        String Concatenation, String Format, Escape Character and many more<br>
+        <h4>Functions</h4>
+        A function is a block of code which only runs when it is called. You can pass data, known as parameters, into a function. 
+        A function can return data as a result.<br>
+        In Python a function is defined using the def keyword:
+        Example: <br>
+            def my_function():<br>
+            print("Hello from a function")<br>
+        <br>
+        <b>Arguments</b>
+        Information can be passed into functions as arguments. Arguments are specified after the function name, inside the parentheses. 
+        You can add as many arguments as you want, just separate them with a comma.
+        <br>
+        <b>Parameters or Arguments?</b>
+        The terms parameter and argument can be used for the same thing: information that are passed into a function.<br>
+        <b>Number of Arguments</b>
+        By default, a function must be called with the correct number of arguments. Meaning that if your function expects 2 arguments,
+         you have to call the function with 2 arguments, not more, and not less.<br>
+         <b>Arbitrary Arguments, *args</b>
+         If you do not know how many arguments that will be passed into your function, add a * before the parameter name in the function definition.
+          This way the function will receive a tuple of arguments<br>
+          <b>Recursion</b>
+          Python also accepts function recursion, which means a defined function can call itself.
+            Recursion is a common mathematical and programming concept. It means that a function calls itself.
+             This has the benefit of meaning that you can loop through data to reach a result.<br>
+             <b>Example</b>
+            def tri_recursion(k):<br>
+            if(k > 0):<br>
+            result = k + tri_recursion(k - 1)<br>
+            print(result)<br>
+            else:<br>
+            result = 0<br>
+            return result<br>
+            <br>
+            print("\n\nRecursion Example Results")<br>
+            tri_recursion(6)<br>
+
+
+    </p>
+</body>
+</html>
